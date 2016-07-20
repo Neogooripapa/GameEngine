@@ -1,0 +1,9 @@
+*.DS_Store
+PokemonWarsDarkAge/cocos2d/
+PokemonWarsDarkAge/proj.android-studio/
+PokemonWarsDarkAge/proj.android/
+PokemonWarsDarkAge/proj.ios_mac/PokemonWarsDarkAge.xcodeproj/project.pbxproj
+PokemonWarsDarkAge/proj.ios_mac/
+PokemonWarsDarkAge/proj.linux/
+PokemonWarsDarkAge/proj.win32/
+PokemonWarsDarkAge/proj.win8.1-universal/
