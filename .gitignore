@@ -1,0 +1,13 @@
+*.obj
+*.log
+*.tlog
+*.cache
+*.idb
+*.pdb
+*.dll
+*.lib
+*.suo
+*.db
+*.gitkeep
+*.exp
+*.ilk

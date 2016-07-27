@@ -1,5 +1,4 @@
-#ifndef __MAIN_SCENE_H__
-#define __MAIN_SCENE_H__
+#pragma once
 
 #include "cocos2d.h"
 
@@ -11,10 +10,10 @@ public:
     virtual bool init();
     
     // a selector callback
+	void menuNewGameCallback(cocos2d::Ref* pSender);
+	void menuLoadCallback(cocos2d::Ref* pSender);
     void menuCloseCallback(cocos2d::Ref* pSender);
     
     // implement the "static create()" method manually
     CREATE_FUNC(MainScene);
 };
-
-#endif // __MAIN_SCENE_H__
