@@ -13,6 +13,9 @@
     <Filter Include="src\Object">
       <UniqueIdentifier>{854c2e03-680d-4b74-a448-5e2cd2b61358}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Skill">
+      <UniqueIdentifier>{c9f9dece-cf4c-4096-aaf5-1439b4770ebe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -27,8 +30,17 @@
     <ClCompile Include="..\Classes\NewGameScene.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\Object\Monster.cpp">
+    <ClCompile Include="..\Classes\Object\Pokemon.cpp">
       <Filter>src\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Object\PokemonKnight.cpp">
+      <Filter>src\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Skill\Skill.cpp">
+      <Filter>src\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Skill\SkillManager.cpp">
+      <Filter>src\Skill</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -44,8 +56,17 @@
     <ClInclude Include="..\Classes\NewGameScene.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Object\Monster.h">
+    <ClInclude Include="..\Classes\Object\Pokemon.h">
       <Filter>src\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Object\PokemonKnight.h">
+      <Filter>src\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Skill\Skill.h">
+      <Filter>src\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Skill\SkillManager.h">
+      <Filter>src\Skill</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

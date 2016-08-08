@@ -2,7 +2,7 @@
 
 #include <string>
 
-class Monster
+class Pokemon
 {
 private:
 	int level;				// 레벨
@@ -16,6 +16,6 @@ private:
 	// TODO : 스킬 리스트 저장 변수 추가
 
 public:
-	Monster();
-	~Monster();
+	Pokemon();
+	~Pokemon();
 };
